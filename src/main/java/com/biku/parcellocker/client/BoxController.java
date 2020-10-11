@@ -27,7 +27,7 @@ public class BoxController {
         return boxRepository.findAll();
     }
 
-    @PostMapping("changeState")
+    @PostMapping("changestate")
 //    @Transactional
     public ResponseEntity<Box> changeState(@RequestBody Box box) {
         //find by name
